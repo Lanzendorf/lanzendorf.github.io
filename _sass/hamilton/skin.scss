@@ -66,7 +66,7 @@ table {
 ///////// Layout ///////////
 
 .site-header {
-  background-color: #dddae6;
+  background-color: $background-color;
   border-top-color: $border-color-dark;
   border-bottom-color: $border-color-dark;
 }
@@ -84,7 +84,7 @@ table {
 }
 
 .site-nav {
-  background-color:  #dddae6;
+  background-color:  $background-color;
   border-color: $border-color;
 
   .menu-icon {
