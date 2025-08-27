@@ -6,3 +6,7 @@
 - title: LinkedIn
   url: https://www.linkedin.com/in/lanzendorf
   icon: fab fa-linkedin
+  
+- title: CV
+  url: /files/Resume082625
+  icon: fab fa-file-text-o
