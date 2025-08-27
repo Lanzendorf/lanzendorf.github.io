@@ -1,17 +1,12 @@
 - title: Home
   url: /
 
-- title: Publications
-  url: /publications/
+- title: Projects
+  url: /projects/
 
-- title: Talks
-  url: /talks/
+- title: CV
+  url: /cv/
 
-- title: Awards
-  url: /awards/
-
-- title: Teaching
-  url: /teaching/
 
 
 # - title: More
