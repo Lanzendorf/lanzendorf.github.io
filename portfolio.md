@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Awards
-permalink: /awards/
+title: Projects
+permalink: /projects/
 ---
 
 * Fonds de Recherche du Quebec - Nature et technologies (FRQNT) Doctoral Fellowship, 2019 - 2023
