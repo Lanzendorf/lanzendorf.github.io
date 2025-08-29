@@ -5,6 +5,18 @@
     {% include head.html %}
     <style>
 
+      .resume-toc{
+        list-style-type: none;
+        font-size: large;
+        font-weight: bold;
+        color: white;
+        
+      }
+
+      .resume-toc-item{
+        padding-bottom: .5rem;        
+      }
+
       .box {
         background-color: #1c1d29; /* dark card background */
         border-radius: .5rem;       /* rounded corners */
@@ -54,10 +66,11 @@
       
       <div class="site-body wrapper">
         <aside class="site-sidebar" id="site-sidebar">
-          <ul>
-            <li><a href="#GenInfo">General Information</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#work">Work Experience</a></li>
+          <ul class= "resume-toc">
+            <li class = "resume-toc-item"><a href="#GenInfo">General Information</a></li>
+            <li class = "resume-toc-item"><a href="#Education">Education</a></li>
+            <li class = "resume-toc-item"><a href="#work">Work Experience</a></li>
+            <li class = "resume-toc-item"><a href="#skills">Skills</a></li>
           </ul>
         </aside>
         <main class="site-main" id="site-main" aria-label="Content" tabindex="1">
@@ -133,6 +146,11 @@
 
               </ul>
           </div>
+          </div>
+
+
+          <div class = "box">
+            <h2 id="skills">Skills</h2>
           </div>
 
 
