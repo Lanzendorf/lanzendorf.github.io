@@ -1,1 +1,30 @@
 // Placeholder to allow customizing styles.
+.box {
+    background-color: #1a1f29; /* dark card background */
+    border-radius: 8px;       /* rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3); /* soft shadow */
+}
+
+
+
+.date-tag {
+    display: inline-block;
+    background: #0284c7; /* blue pill */
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    margin-bottom: 6px;
+}
+
+.job-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.company {
+    font-style: italic;
+    color: #aaa;
+}
