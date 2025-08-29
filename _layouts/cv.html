@@ -54,24 +54,25 @@
       
       <div class="site-body wrapper">
         <aside class="site-sidebar" id="site-sidebar">
-          {% if page.toc %}
-            {% include sidebar-toc.html %}
-          {% else %}
-            {% include sidebar.html %}
-          {% endif %}
+          <ul>
+            <li><a href="#GenInfo"></a>General Information</li>
+            <li><a href="#Education"></a>Education</li>
+            <li><a href="#work"></a>Work Experience</li>
+          </ul>
         </aside>
         <main class="site-main" id="site-main" aria-label="Content" tabindex="1">
           <div class = "box">
-            <h2>General Information</h2>
+            <h2 id="GenInfo">General Information</h2>
             <p><strong>Name:</strong> Lucas Lanzendorf</p>
             <p><strong>Email:</strong> <a href="mailto:lucaslanzendorf@gmail.com" style="color:#a58fff">lucaslanzendorf@gmail.com</a></p>
             <p><strong>Phone:</strong> (978) 906 3338</p>
             <p><strong>Url:</strong> <a href="https://lucaslanzendorf.com" style="color:#a58fff">https://lucaslanzendorf.com</a></p>
           </div>
+          
 
 
           <div class = "box">
-            <h2>Education</h2>
+            <h2 id="Education">Education</h2>
             <div>
               <span class="date-tag">09/2020 - 06/24</span>
               <p class="job-title">B.S. Mechanical Engineering, Concentration in Robotics</p>
@@ -103,7 +104,7 @@
 
 
           <div class = "box">
-            <h2>Work</h2>
+            <h2 id="work">Work Experience</h2>
           <div>
               <span class="date-tag">09/2024 - Present</span>
               <p class="job-title">Mechanical Engineer</p>
