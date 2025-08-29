@@ -4,3 +4,4 @@ permalink: /cv/
 ---
 
 Lucas Lanzendorf
+Mechanical Engineer
