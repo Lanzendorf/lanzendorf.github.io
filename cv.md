@@ -1,6 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
+toc: true 
 ---
 
 Lucas Lanzendorf
