@@ -2,10 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of projects.
-nav: true
-nav_order: 3
-horizontal: false
+description: A growing collection of projects
 ---
 
 <!-- pages/projects.md -->
