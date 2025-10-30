@@ -204,11 +204,4 @@ ul.task-list {
   margin-top: 0;
   
   
-
-  @media screen and (min-width: $on-large) {
-    //max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    
-    margin-right:0;
-    margin-left:0;
-  }
 }
