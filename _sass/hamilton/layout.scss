@@ -193,8 +193,8 @@
 .site-body {
  
   display: grid;
-  margin-right: 10vw;
   margin-left: 10vw;
+  margin-right: 10vw;
   grid-template-columns: calc(#{$content-width} * 0.33) 1fr;
   overflow: hidden;
 
