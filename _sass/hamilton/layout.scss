@@ -17,7 +17,8 @@
   border-bottom: 1px solid;
   min-height: $base-font-size * 3;
   line-height: $base-font-size * 5;
-  
+  padding-left: 10vw;
+  padding-right: 10vw;
 
   @include media-query($on-small) {
     display: flex;
