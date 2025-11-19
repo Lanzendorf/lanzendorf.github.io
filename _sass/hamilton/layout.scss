@@ -50,7 +50,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  margin-left: $spacing-unit * 2 ;
+  // margin-left: $spacing-unit * 2 ;
   
 
   @include media-query($on-small) {
