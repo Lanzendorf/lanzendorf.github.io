@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  <head>
+    {% include head.html %}
+  <style>
+    body {
+      background-color: #1e1e1e;
+      font-family: "Inter", sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    .card {
+      background-color: #2b2b2b;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+      text-decoration: none;
+      color: #fff;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-content {
+      padding: 1rem;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+
+    .card p {
+      margin-top: 0.5rem;
+      color: #aaa;
+      font-size: 0.95rem;
+    }
+
+    .subheader {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; /* pushes text to the right */
+      width: 100%;
+      margin: 40px 0 10px 0;
+    }
+
+    .subheader span {
+      color: #5a5a5a;        /* subtle gray text */
+      font-size: 1.4rem;     /* adjust as needed */
+      font-weight: 300;      /* light text */
+      margin-right: 20px;    /* spacing before the line */
+      letter-spacing: 1px;   /* optional, adds that minimal feel */
+      text-transform: lowercase;
+    }
+
+    .subheader .line {
+      flex-grow: 1;                      /* makes line stretch */
+      height: 1px;
+      background-color: #444;            /* muted line color */
+    }
+   </style>
+  </head>
+
+  <body>
+    <div class="site-container">
+      <header class="site-header">
+        {% include header.html %}
+      </header>
+      
+      <div class="site-body wrapper">
+        <main class="site-main" id="site-main" aria-label="Content" tabindex="1">
+
+          <div class="subheader">
+            <span>current</span>
+            <div class="line"></div>
+          </div>
+          
+          <div class="grid">
+            <a href="https://lucaslanzendorf.com/projects/lidar" class="card">
+              <img src="lidar.jpg" alt="Custom LIDAR" />
+              <div class="card-content">
+                <h2>lidar</h2>
+              </div>
+            </a>
+          </div>
+
+          <div class="subheader">
+            <span>prior</span>
+            <div class="line"></div>
+          </div>
+
+          <div class="grid">
+            <a href="https://lucaslanzendorf.com/projects/me134" class="card">
+              <img src="me134.jpg" alt="ME/CS/EE 134" />
+              <div class="card-content">
+                <h2>ME/CS/EE 134</h2>
+              </div>
+            </a>
+
+            <a href="https://lucaslanzendorf.com/projects/me72" class="card">
+              <img src="me72.jpg" alt="ME 72" />
+              <div class="card-content">
+                <h2>ME72</h2>
+              </div>
+            </a>
+
+            <a href="https://lucaslanzendorf.com/projects/me14" class="card">
+              <img src="me14.jpg" alt="ME 14" />
+              <div class="card-content">
+                <h2>ME 14</h2>
+              </div>
+            </a>
+
+            <a href="https://lucaslanzendorf.com/projects/rover" class="card">
+              <img src="crater.jpg" alt="University Rover Challenge" />
+              <div class="card-content">
+                <h2>University Rover Challenge</h2>
+              </div>
+            </a>
+
+            <a href="https://lucaslanzendorf.com/projects/offworld" class="card">
+              <img src="offworld.jpg" alt="OffWorld" />
+              <div class="card-content">
+                <h2>OffWorld</h2>
+              </div>
+            </a>
+
+            <a href="https://lucaslanzendorf.com/projects/saintgobain" class="card">
+              <img src="saintgobain.jpg" alt="Saint-Gobain" />
+              <div class="card-content">
+                <h2>Saint-Gobain</h2>
+              </div>
+            </a>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+
+</html>
