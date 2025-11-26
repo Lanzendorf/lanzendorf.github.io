@@ -3,15 +3,10 @@ layout: project-desc
 permalink: /projects/quadtrax/
 ---
 
-<style>
-    .img {
-        max-width:60%;
-    }
-</style>
 
 # MG-A1 Quadtrax Tank Retrofit
 
-<img src="/pictures/quadtrax/tan-quadtrax.jpeg" alt="Base Quadtrax Model">
+<img class="title-img" src="/pictures/quadtrax/tan-quadtrax.jpeg" alt="Base Quadtrax Model">
 
 While roaming on FB Marketplace, as I often do, I came upon two of these RC tanks that caught my attention. Having never seen anything like these and at only $20 for the pair, I couldn't pass up the opportunity to pick these up. 
 
