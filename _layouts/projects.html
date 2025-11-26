@@ -5,9 +5,14 @@
     {% include head.html %}
   <style>
 
+    .header {
+      margin-right: 20vw;
+      margin-left: 20vw;
+    }
     .site-body {
       grid-template-columns: 100%;
       justify-items: center;
+      margin: 0 20vw;
     }
 
     .grid {
@@ -166,6 +171,9 @@
               </div>
             </a>
           </div>
+          <footer class="site-footer">
+            {% include footer.html %}
+          </footer>
         </main>
       </div>
     </div>
