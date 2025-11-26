@@ -17,8 +17,6 @@
   border-bottom: 1px solid;
   min-height: $base-font-size * 3;
   line-height: $base-font-size * 5;
-  padding-left: 10vw;
-  padding-right: 10vw;
 
   @include media-query($on-small) {
     display: flex;
@@ -50,7 +48,6 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-  margin-left: 10vw;
   
 
   @include media-query($on-small) {
