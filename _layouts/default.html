@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+
   <head>
     {% include head.html %}
   </head>
 
   <body>
     <div class="site-container">
-      <header class="site-header">
+      <header class="site-header" style="padding-right: 20vw; padding-left: 20vw;">
         {% include header.html %}
       </header>
       
-      <div class="site-body wrapper">
+      <div class="site-body wrapper" style="grid-template-columns: 100%; justify-items: center; margin: 0 20vw;">
         <aside class="site-sidebar" id="site-sidebar">
           {% if page.toc %}
             {% include sidebar-toc.html %}
