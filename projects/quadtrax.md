@@ -7,10 +7,10 @@ permalink: /projects/quadtrax/
 # MG-A1 Quadtrax Tank Retrofit
 
 <div class="clearfix" style="clear: both; display: table;">
-  <div class="img-container">
+  <div style="float: left; width: 50.5%; padding: 5px;">
     <img class="title-img" src="/pictures/quadtrax/tan-quadtrax.jpeg" alt="Base quadtrax model in tan"> 
   </div>
-  <div style="float: left; width: 33.33%; padding: 5px;">
+  <div style="float: left; width: 45%; padding: 5px;">
     <img class="title-img" src="/pictures/quadtrax/red-quadtrax.jpg" alt="Base quadtrax model in red">
   </div>
 
