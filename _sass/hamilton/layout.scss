@@ -48,6 +48,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  margin-left: 0;
   
 
   @include media-query($on-small) {
@@ -58,7 +59,7 @@
 .site-nav {
   position: absolute;
   top: 12px;
-  margin-right: $spacing-unit;
+  //margin-right: $spacing-unit;
 
   border: 1px solid;
   border-radius: 0.4em;
