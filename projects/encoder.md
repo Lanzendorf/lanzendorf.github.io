@@ -39,12 +39,12 @@ permalink: /projects/encoder/
   Using the side-shaft configuration does come with some unique challenges that can luckily be addressed by configuring the microcontroller. The method best supported by the MA732 is known as "bias current trimming."
 </div>
 
+##
 ## Bias Current Trimming (BCT)
 
 <div style="text-align: justify; justify-items: center;">
   Within the MA732, Hall effect sensors are oriented to detect the in-plane components of the magnetic field in the plane parallel to the package's top surface. In the case of side-shaft mounting, the magnetic field angle is no longer directly proportional to the shaft angle as with end-of-shaft mounting. By modifying the BCT settings in the register map, specifically register 2, the MA732 can be calibrated to compensate for this non-linearity and recover the linear relationship between the mechanical angle and the sensor output.
 </div>
 
-
-<img class="single-img" src="/pictures/ma732/error-bct-0.png" alt="side-shaft error curve plot with no BCT enabled" width=60%>
+<img class="single-img" src="/pictures/ma732/error-bct-0.png" alt="side-shaft error curve plot with no BCT enabled">
 
