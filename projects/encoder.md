@@ -45,6 +45,6 @@ permalink: /projects/encoder/
   Within the MA732, Hall effect sensors are oriented to detect the in-plane components of the magnetic field in the plane parallel to the package's top surface. In the case of side-shaft mounting, the magnetic field angle is no longer directly proportional to the shaft angle as with end-of-shaft mounting. By modifying the BCT settings in the register map, specifically register 2, the MA732 can be calibrated to compensate for this non-linearity and recover the linear relationship between the mechanical angle and the sensor output.
 </div>
 
-<div style="justify-items: center;">
-  <img class="single-img" src="/pictures/ma732/error-bct-0.png" alt="side-shaft error curve plot with no BCT enabled" width=60%>
-</div>
+
+<img class="single-img" src="/pictures/ma732/error-bct-0.png" alt="side-shaft error curve plot with no BCT enabled" width=60%>
+
