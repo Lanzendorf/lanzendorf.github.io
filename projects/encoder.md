@@ -17,7 +17,7 @@ permalink: /projects/encoder/
 
 
 <div class="pdf">
-  <iframe src="/pictures/ma732/ma732-schematic.pdf" width="70%" height="800px"></iframe>
+  <iframe src="/pictures/ma732/ma732-schematic.pdf" width="90%" height="800px"></iframe>
 </div>
 
 <div style="text-align: justify; justify-items: center;">
