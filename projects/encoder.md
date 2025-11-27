@@ -3,7 +3,7 @@ layout: project-desc
 permalink: /projects/encoder/
 ---
 
-
+#
 # MA732 Magnetic Encoder Breakout Board
 
 <div class="clearfix" style="clear: both; display: table; margin: 2vw 2vw;">
@@ -17,7 +17,7 @@ permalink: /projects/encoder/
 
 
 <div class="pdf">
-  <iframe src="/pictures/ma732/ma732-schematic.pdf" width="70%" height="900px"></iframe>
+  <iframe src="/pictures/ma732/ma732-schematic.pdf" width="70%" height="800px"></iframe>
 </div>
 <div style="text-align: justify;">
 This is the first PCB I've ever built so I decided to use it as a learning experience to familiarize myself with PCB design. I designed it in EasyEDA based on an encoder made by mjbots and ordered the assembled PCB through JLCPCB.
