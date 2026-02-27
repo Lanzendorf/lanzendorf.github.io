@@ -3,7 +3,7 @@ layout: project-desc
 permalink: /projects/encoder/
 ---
 
-#        
+     
 # MA732 Magnetic Encoder Breakout Board
 
 <div class="clearfix" style="clear: both; display: table; margin: 2vw 2vw;">
